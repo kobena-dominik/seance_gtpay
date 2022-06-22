@@ -1,0 +1,17 @@
+2022-06-14T14:24:49+00:00 CRITICAL Uncaught Error: Call to a member function get_total() on bool in C:\xampp\htdocs\twinsgtbank.com\wp-content\plugins\gtpay-ci-woocommerce-master\index.php:291
+Stack trace:
+#0 C:\xampp\htdocs\twinsgtbank.com\wp-includes\class-wp-hook.php(307): WC_GTPay->get_gtpay_response('')
+#1 C:\xampp\htdocs\twinsgtbank.com\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#2 C:\xampp\htdocs\twinsgtbank.com\wp-includes\plugin.php(476): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\twinsgtbank.com\wp-content\plugins\woocommerce\includes\class-wc-api.php(161): do_action('woocommerce_api...')
+#4 C:\xampp\htdocs\twinsgtbank.com\wp-includes\class-wp-hook.php(307): WC_API->handle_api_requests(Object(WP))
+#5 C:\xampp\htdocs\twinsgtbank.com\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#6 C:\xampp\htdocs\twinsgtbank.com\wp-includes\plugin.php(524): WP_Hook->do_action(Array)
+#7 C:\xampp\htdocs\twinsgtbank.com\wp-includes\class-wp.php(398): do_action_ref_array('parse_request', Array)
+#8 C:\xampp\htdocs\twinsgtbank.com\wp-includes\class-wp.php(770): WP->parse_request('')
+#9 C:\xampp\htdocs\twinsgtbank.com\wp-includes\functions.php(1330): WP->main('')
+#10 C:\xampp\htdocs\twinsgtbank.com\wp-blog-header.php(16): wp()
+#11 C:\xampp\htdocs\twinsgtbank.com\index.php(17): require('C:\\xampp\\htdocs...')
+#12 {main}
+  thrown dans C:\xampp\htdocs\twinsgtbank.com\wp-content\plugins\gtpay-ci-woocommerce-master\index.php à la ligne 291
+
